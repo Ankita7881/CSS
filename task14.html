@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            height: 50px;
+            width: 300px;
+            float: left;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 25px;
+            line-height: 50px;
+            font-weight: bold;
+            color: none;
+        }
+
+        ul li a:hover {
+            background-color: palegreen;
+            color: palevioletred;
+            display: block;
+        }
+
+        ul li:hover>ul {
+            display: block;
+        }
+
+        ul ul {
+            display: none;
+        }
+
+        #A {
+            margin-top: -30px;
+            margin-left: 300px;
+        }
+
+        #A1 {
+            margin-top: -30px;
+            margin-left: 300px;
+        }
+
+        #B {
+            margin-top: -50px;
+            margin-left: -290px;
+        }
+        #B1 {
+            margin-top: -20px;
+            margin-left: -300px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="gallery">Gallery</a>
+            <ul>
+                <li>
+                    <a href="">Photo's</a>
+                    <ul id="A">
+                        <li> <a href="">jpg</a>
+                            <ul id="A1">
+                                <img src="img1.jpg" height="150px" width="150px"></img>
+                                <img src="img12.jpg" height="150px" width="150px"></img>
+                                <img src="img3.jpg" height="150px" width="150px"></img>
+                                <img src="img4.jpg" height="150px" width="150px"></img>
+                            </ul>
+                        </li>
+                        <li><a href="">png</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Video's</a>
+                    <ul id="B">
+                        <li> <a href="">HD</a></li>
+                        <li><a href="">MP4</a>
+                            <ul id="B1">
+                                <iframe src="video1.mp4" frameborder="0"></iframe>
+                                <iframe src="video2.mp4" frameborder="0"></iframe>
+                                <iframe src="video3.mp4" frameborder="0"></iframe>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="contact us">Contact us</a>
+            <ul>
+                <li><a href="">7880563761</a></li>
+                <li><a href="">7860563891</a></li>
+                <li><a href="">8480578661</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

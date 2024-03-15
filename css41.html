@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            height: 200px;
+            width: 200px;
+            background-color: palevioletred;
+            border: 2px solid black;
+            transition: all 2s;
+            margin: auto;
+        }
+
+        .container {
+            height: 50vw;
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box:hover {
+            transform: rotate(360deg);
+            transform: scale(2.5);
+            transform: rotate(-45deg);
+        }
+        p{
+            text-align: center;
+            margin-top: 80px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box">
+            <p>Ankita Verma</p>
+        </div>
+    </div>
+</body>
+
+</html>

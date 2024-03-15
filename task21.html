@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #A1 {
+            height: 600px;
+            width: 600px;
+            background-color: white;
+            margin: auto;
+        }
+
+        #A2 {
+            height: 150px;
+            width: 150px;
+            border: 35px solid red;
+            float: left;
+        }
+        #a1{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #a2{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin-top: 10px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #a3{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin-top: 30px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #a4{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin-top: -50px;
+            margin-left: 10px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+           
+        }
+
+        #C1 {
+            height: 219px;
+            width: 52px;
+            border: 1px solid black;
+            float: left;
+        }
+
+        .X {
+            height: 182.5px;
+            width: 52px;
+            background-color: green;
+            margin-top: 36.5px;
+            float: left;
+        }
+
+        .X1 {
+            height: 36.5px;
+            width: 52px;
+            background-color: green;
+            margin-top: 36.5px;
+            float: left;
+        }
+
+        #R1 {
+            height: 35px;
+            width: 160px;
+            border: 1px solid black;
+            margin-left: 219px;
+
+        }
+
+        #A3 {
+            height: 150px;
+            width: 150px;
+            border: 35px solid green;
+            margin-left: 380px;
+            margin-top: -222px;
+        }
+        #b1{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #b2{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            margin-top: 10px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            
+        }
+        #b3{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            margin-top: 30px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #b4{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            margin-top: -50px;
+            margin-left: 10px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+        #R2 {
+            height:52.3px;
+            width: 218px;
+            border: 1px solid black;
+            
+        }
+
+        .Y {
+            height:52.3px;
+            width: 35px;
+            background-color: red;
+            margin-left: 36.3px;
+
+        }
+
+        .Y1 {
+            height:52.3px;
+            width: 218px;
+            background-color: red;
+            margin-left: 36.3px;
+        }
+
+        #C2 {
+            height: 156.9px;
+            width: 35px;
+            border: 1px solid black;
+            margin-top: -158px;
+            float: left;
+        }
+
+        #AA {
+            height: 157px;
+            width: 157px;
+            border: 2px solid black;
+            margin-top: -159px;
+            float: left;
+        }
+
+        #AA1 {
+            height: 0px;
+            width: 0px;
+            border-top: 78px solid green;
+            border-right: 80px solid yellow;
+            border-bottom: 80px solid blue;
+            border-left: 78px solid red;
+            float: left;
+        }
+
+        #R3 {
+            height:52.3px;
+            width: 218px;
+            border: 1px solid black;
+            float: left;
+            margin-top: -160px;
+        }
+
+        #R4 {
+            height:52.3px;
+            width: 218px;
+            border: 1px solid black;
+            float: left;
+            margin-top: -107px;
+        }
+        .Z{
+            height: 52.3px;
+            width:182px ;
+            background-color: yellow;
+        }
+
+        #R5 {
+            height:52.3px;
+            width: 218px;
+            border: 1px solid black;
+            float: left;
+            margin-top: -54px;
+        }
+        .Z1{
+            height: 52.3px;
+            width:36px ;
+            margin-left: 146px;
+            background-color: yellow;
+        }
+
+        #C3 {
+            height: 157px;
+            width: 36.3px;
+            border: 1px solid black;
+            float: left;
+            margin-top: -159px;
+        }
+
+        #C4 {
+            height: 157px;
+            width: 36.3px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 36.3px;
+            margin-top: -159px;
+        }
+
+        #C5 {
+            height: 157px;
+            width: 36.3px;
+            border: 1px solid black;
+            float: left;
+            margin-left:72.6px;
+            margin-top: -159px;
+        }
+
+        #C6 {
+            height: 157px;
+            width: 36.3px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 108.9px;
+            margin-top: -159px;
+        }
+
+        #C7 {
+            height: 157px;
+            width: 36.3px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 145.2px;
+            margin-top: -159px;
+        }
+        #C8{
+            height: 157px;
+            width: 36.3px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 181.5px;
+            margin-top: -159px;
+        }
+
+        #A4 {
+            height: 150px;
+            width: 150px;
+            border: 35px solid blue;
+            float: left;
+            margin-right: 221px;
+            
+        }
+
+        #c1{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #c2{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            margin-top: 10px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            
+        }
+        #c3{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            margin-top: 30px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #c4{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            margin-top: -50px;
+            margin-left: 10px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+           
+        }
+        #C9 {
+            height: 219px;
+            width: 53px;
+            border: 1px solid black;
+            float: left;
+            margin-left: -221px;
+        }
+        .S{
+            height:35.3px;
+            width: 53px;
+            background-color: blue;
+            margin-top: 146px;
+        }
+        #C10 {
+            height: 219px;
+            width: 53px;
+            border: 1px solid black;
+            float: left;
+            margin-left: -168px;
+        }
+        .S1{
+            height: 181.3px;
+            width: 53px;
+            background-color: blue;
+            
+        }
+        #C11{
+            height: 219px;
+            width: 53px;
+            border: 1px solid black;
+            float: left;
+            margin-left: -115px;
+        }
+        #R6 {
+            height: 35.3px;
+            width: 160px;
+            border: 1px solid black;
+            margin-left: 220px;
+           
+        }
+    
+        #A5 {
+            height: 150px;
+            width: 150px;
+            border: 35px solid yellow;
+            float: left;
+            margin-left: 380px;
+            margin-top: -220px;
+        }
+
+        #d1{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #d2{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            margin-top: 10px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            
+        }
+        #d3{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            margin-top: 30px;
+            margin-left: 90px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        #d4{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            margin-top: -50px;
+            margin-left: 10px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div id="A1">
+        <div id="A2">
+            <div id="a1"></div>
+            <div id="a2"></div>
+            <div id="a3"></div>
+            <div id="a4"></div>
+        </div>
+        <div id="C1"></div>
+        <div id="C1">
+            <div class="X"></div>
+        </div>
+        <div id="C1">
+            <div class="X1"></div>
+        </div>
+        <div id="R1"></div>
+        <div id="R1"></div>
+        <div id="R1"></div>
+        <div id="R1"></div>
+        <div id="R1"></div>
+        <div id="R1"></div>
+        <div id="A3">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+            <div id="b4"></div>
+        </div>
+        <div id="R2">
+            <div class="Y"></div>
+        </div>
+        <div id="R2">
+            <div class="Y1"></div>
+        </div>
+        <div id="R2"></div>
+        <div id="C2"></div>
+        <div id="C2"></div>
+        <div id="C2"></div>
+        <div id="C2"></div>
+        <div id="C2"></div>
+        <div id="C2"></div>
+        <div id="AA">
+            <div id="AA1"></div>
+        </div>
+        <div id="R3"></div>
+        <div id="R4">
+            <div class="Z"></div>
+        </div>
+        <div id="R5">
+            <div class="Z1"></div>
+        </div>
+        <div id="C3"></div>
+        <div id="C4"></div>
+        <div id="C5"></div>
+        <div id="C6"></div>
+        <div id="C7"></div>
+        <div id="C8"></div>
+        <div id="A4">
+            <div id="c1"></div>
+            <div id="c2"></div>
+            <div id="c3"></div>
+            <div id="c4"></div>
+        </div>
+        <div id="C9">
+            <div class="S"></div>
+        </div>
+        <div id="C10">
+            <div class="S1"></div>
+        </div>
+        <div id="C11"></div>
+        <div id="R6"></div>
+        <div id="R6"></div>
+        <div id="R6"></div>
+        <div id="R6"></div>
+        <div id="R6"></div>
+        <div id="R6"></div>
+        <div id="A5">
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d3"></div>
+            <div id="d4"></div>
+        </div>
+    </div>
+</body>
+
+</html>

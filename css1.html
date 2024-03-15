@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none
+        }
+
+        ul li {
+            height: 50px;
+            width: 250px;
+            background-color: aqua;
+            float: left;
+            text-align: center;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 23px;
+            line-height: 50px;
+            font-weight: bold;
+            /* color: ; */
+        }
+
+        ul li a:hover {
+            background-color: aquamarine;
+            color: white;
+            display: block;
+        }
+
+        ul ul {
+            display: none;
+        }
+
+        ul li:hover>ul {
+            display: block;
+        }
+
+        ul ul ul {
+            margin-left: 250px;
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li>
+            <a href="">Gallery</a>
+            <ul>
+                <li>
+                    <a href="">Photo's</a>
+                    <ul>
+                        <li> <a href="">jpg</a></li>
+                        <li><a href="">png</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Video's</a>
+                    <ul>
+                        <li> <a href="">HD</a></li>
+                        <li><a href="">MP4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Blog</a></li>
+    </ul>
+</body>
+
+</html>
